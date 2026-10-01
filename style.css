@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+}
+
+.site-init {
+    background-color: black;
+    padding: 40px 20px;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.menu-sub {
+    display: inline-block;
+    text-align: center;
+    background-color: orange;
+    padding: 10px 16px;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+}
+
+.container1a {
+    width: 80%;
+    margin: 30px auto 0;
+    background-color: blanchedalmond;
+}
+
+.lg-text {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sm-text {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sm-text1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:center ;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.gmail {
+    color: black;
+}
+
+.blog-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+article {
+    background-color: #909090;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.image{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+object-fit: cover;
+display: block;
+margin: 20px auto;
+border: 4px solid orange;
+}
+
+/*.text {
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}*/
+
+/* form */
+
+.container {
+    background-color: aqua;
+    padding: 30px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h2-contact{
+margin-top: 0;
+}
+
+.input-control{
+    display:flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.input-control label{
+width: 80%;
+border-radius: 5%;
+
+}
+
+
